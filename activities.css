@@ -1,0 +1,31 @@
+﻿table
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	border-spacing:5px;
+}
+
+th
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	padding:15px;
+	text-align:left;
+}
+
+table#t01 th:nth-child(odd)
+{
+	background-color:skyblue;
+}
+
+table#t01 th:nth-child(even)
+{
+	background-color:green;
+}
+
+table#t02 th:nth-child(odd)
+{
+	background-color:white;
+}
+
+
